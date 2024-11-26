@@ -1,8 +1,6 @@
 const std = @import("std");
 const rl = @import("raylib");
 
-const CollisionSide = enum { left, right };
-
 const CollisionInfo = struct {
     collided: bool,
     yAdjustment: f32,
